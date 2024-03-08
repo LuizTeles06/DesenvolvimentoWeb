@@ -1,0 +1,39 @@
+
+* {
+
+    margin: 0%;
+    
+}
+
+header {
+
+background-color: #485461;
+width: 100%;
+height: 70px;
+text-align: center;
+color: aliceblue;
+
+
+}
+
+main {
+
+    background-color: #7B9BDA ;
+    text-align: center;
+    width: 100%;
+    height: 450px
+}
+
+footer {
+
+    background-color: black;
+    color: aliceblue;
+    height: 78px;
+}
+
+.itens {
+
+    display: grid;
+    gap: 130px;
+}
+
