@@ -1,0 +1,82 @@
+
+.campo{
+  margin-top: -5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(153, 245, 255);
+    margin-left: 200px;
+    margin-right: 200px;
+    border-radius: 100px;
+    padding: 20px;
+   
+    
+}
+
+.terror{
+    margin: 20px;
+    border-radius: 10px;
+    font-size: 20px;
+    width: 25%;
+    
+}
+.comedia{
+    border-radius: 10px;
+    font-size: 20px;
+    width: 25%;
+}
+.acao{
+    border-radius: 10px;
+    font-size: 20px;
+    width: 25%;
+}
+.enviar{
+margin-left: 300px;
+width: 55%;
+height: 6vh;
+font-size: 20px;
+padding: 5px;
+cursor: pointer;
+background-image: linear-gradient(rgb(255, 255, 255), rgb(6, 6, 3));
+color: white;
+
+
+}
+.adicionais{
+align-items: center;
+flex-direction: column;
+display: flex;
+font-size: 25px;
+cursor: pointer;
+width: 85%;
+margin: 10px;
+border-collapse: separate;
+border-spacing: 50px;
+
+
+}
+th{
+    padding: 50px;
+}
+
+.tabela {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgb(226, 207, 255);
+    margin-left: 200px;
+    margin-right: 200px;
+    border-radius: 800px;
+    border-collapse: separate;
+    padding: 10px; 
+    border-spacing: 10px 0px;
+    margin-top: 30px;
+    font-size: 20px;
+
+}
+
+.enviar:hover {
+
+    color: rgb(245, 177, 177);
+    border-color: rgb(245, 177, 177);
+}

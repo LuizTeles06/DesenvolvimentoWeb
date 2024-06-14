@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página 1</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+
+<body>
+    <div class="button-container">
+        <button onclick="navigateTo('index.html')">Página Principal</button>
+        <button onclick="navigateTo('page1.html')">Automação Industrial</button>
+        <button onclick="navigateTo('page3.html')">Banco de Dados</button>
+        <button onclick="navigateTo('page2.html')">Desenvolvimento Web</button>
+        <button onclick="navigateTo('page5.html')">Ciência de Dados</button>
+    </div>
+
+
+
+    <div class="conteudo">
+        <hr>
+        <h1>Linguagem de Programação e POO</h1>
+        <hr>
+
+        <h2>Introdução</h2>
+        <p>A linguagem de programação é um método padronizado, formado por um conjunto de regras sintáticas e semânticas, de implementação de um código fonte - que pode ser compilado e transformado em um programa de computador.</p> <br><br>
+
+        <h3>Regras Sintáticas vs Regras Semânticas</h3>
+        <p>Sintáticas = Palavras escritas de forma errada sem mudar o sentido da frase</p>
+        <img src="img/Imagem Sintática.jpeg" alt="img"> <br><br><br>
+        <p>Regras Semânticas = Palavras escritas de forma certo mas que mudam o sentido da frase</p>
+        <img src="img/Imagem Semântica.jpeg" alt="img">
+        <br><br>
+
+        <h3>Compiladores e Interpretadores</h3>
+        <p>O compilador gera um arquivo executável que pode ser executado diretamente no sistema operacional. Por outro lado, um interpretador traduz o código fonte linha por linha durante a execução.</p>
+
+        <br><hr>
+
+        <h2>Variáveis</h2>
+        <p>
+            Em Java, uma variável é um contêiner que armazena um valor específico durante a execução de um programa. Variáveis em Java têm tipos, que determinam o tipo de dados que podem ser armazenados nelas (por exemplo, inteiros, caracteres, strings, etc.).</p>
+            <img src="img/Tipos de variável.png" alt="img">
+             <br><br>
+
+            <h3>Declaração de variáveis:</h3>
+            <p> Você precisa digitar o tipo de variável (palavra reservada) e um nome para esta variável.</p>
+            
+            <p>Ao declarar uma variável em um código ela passa a existir não sendo necessário declará-la novamente.</p><br>
+
+            <h3>Como declarar uma variável</h3>
+            <p>Declare e atribua uma variável em uma única linha</p>
+            <img src="img/declarando variavel.jpeg" alt="img">
+
+            <p>Declaração de variáveis textuais: </p>
+            <img src="img/declarando variavel textual.jpeg" alt="img">
+
+            <p>Classe String(Texto):</p>
+            <img src="img/declarando string.jpeg" alt="img">
+            <br><br><br>
+            <hr>
+
+            <h2>Estrutura de Decisão</h2>
+            <br>
+            <h2>if e else</h2>
+            <p>A estrutura de decisão if executa um bloco de instruções se o teste lógico for verdadeiro. </p>
+            <img src="img/diagrama if e else (1).png" alt="img">
+            <br><br><br><br>
+
+            <p>Como é escrito no código:</p>
+            <img src="img/imagem if e else.jpeg" alt="img">
+            <br><br><br><br>
+
+            <p>A estrutura de decisão if/else executa um bloco de instruções se o teste lógico for verdadeiro caso contrário um segundo bloco de instruções é executado.</p>
+            <img src="img/imagem if else 2.jpeg" alt="img">
+            <br><br><br><br>
+
+            <h2>Switch</h2>
+            <p>A estrutura de decisão switch permite que o fluxo do programa seja desviado para vários caminhos diferentes a depender do valor passado para análise. Caso o valor analisado não corresponda a nenhuma opção, o bloco de instruções default é executado. Cada bloco de instruções é finalizado com o comando break, que quando executado desvia o programa automaticamente para fora da estrutura do switch.</p>
+            <img src="img/switch exemplo (1).jpeg" alt="img">
+            <br><br><br>
+
+            <p>A estrutura do switch permite que haja um teste lógico para cada case em sua estrutura, funcionando como um conjunto de ifs aninhados.</p>
+            <img src="img/switch exemplo teste lógico (1).jpeg" alt="">
+            <hr><br><br>
+
+            <h2>Estrutura de Repetição</h2>
+            <p>A estrutura de repetição while permite a criação de um loop que executa um bloco de instruções repetidas vezes enquanto uma condição for verdadeira</p>
+
+            <h3>While</h3>
+            <img src="img/exexplo while.jpeg" alt="img">
+            <br><br><br>
+
+            <h3>do / while</h3>
+            <p>Semelhante ao while o do/while obriga que o bloco de instruções seja executado ao menos uma vez:</p>
+            <img src="img/exexplo while.jpeg" alt="img">
+            <br><br><br>
+
+            <h3>for</h3>
+            <p>Possui a mesma ideia que o **while** porém com uma estrutura fixa que obriga a criação de uma variável de controle</p>
+            <img src="img/exemplo for.jpeg" alt="img">
+            <br><br><br>
+            
+            <p>É importante criar uma rotina que permita que o loop seja interrompido em algum momento, caso contrário seu programa pode ficar preso em um loop infinito.</p>
+            <img src="img/exemplo interropimento while.png" alt="img">
+            <br><br><br><br><br><br>
+            <hr>
+
+            <h2>Vetores</h2>
+            <p>Vetores (array) são variáveis que reservam regiões da memória que podem alocar diversos valores do mesmo tipo em sequencia. Para acessar estes valores utiliza-se o nome dado ao vetor + um índice numérico.</p>
+            <img src="img/exemplo array.jpeg" alt="img">
+            <br><br><br><br><br>
+
+            <p>Na imagem, temos a representação de um vetor chamado num de 3 posições. Nesta representação temos o seguinte:</p>
+            <img src="img/numeros no array.png" alt="">
+            <p> <br>- Posição 0 → valor 5 <br>
+                - Posição 1 → valor 8 <br>
+                - Posição 2 → valor 4</p>
+                
+            <p>Exemplo em código:</p>
+            <img src="img/exemplo array em código.jpeg" alt="">
+            <br><br><br>
+
+            <p>Em Java, Array é uma classe abstrata, sendo assim possui alguns métodos e atributos, como por exemplo o atributo length que após a inicialização, armazena o tamanho do array.</p>
+            <img src="img/Exemplo legth.jpeg" alt="img">
+            <br><br><br>
+
+
+            <p>Para percorrer todos os valores salvos em um Array podemos utilizar laços de repetição como o `for`</p>
+            <img src="img/exemplo array e for.jpeg" alt="img">
+            <br><br><br>
+
+            <p>A linguagem Java, assim como outras linguagens, possui um laço de repetição for com uma sintaxe especial para lidar com vetores, esta estrutura especial é denominada foreach</p>
+            <img src="img/exemplo foreach.jpeg" alt="img">
+            <br><br><br><br><br>
+            <hr>
+
+
+            <h2>Matrizes</h2>
+            <p>Matrizes são vetores N dimensionais, visto que um vetor é unidimensional.</p>
+            <img src="img/exemplo matrizes.jpeg" alt="img">
+            <br><br><br>
+
+            <p>O funcionamento do índice é o mesmo dos vetores,  a diferença é que agora os índice localizam os dados em N dimensões </p>
+            <img src="img/exemplo matrizes2.jpeg" alt="img">
+            <br><br><br>
+
+            <p>Para percorrer os elementos de uma matriz podemos utilizar um sistema de laços for aninhados.</p>
+            <img src="img/exemplo percorrer matriz.jpeg" alt="img">
+            <br><br><br>
+            <hr>
+
+            <h2>Funções</h2>
+            <p>Funções são blocos de instruções que são executados somente quando “chamados”. Funções pode ter parâmetros, valores que são passados durante sua chamada. Funções também podem ter retorno, um valor que é retornado para o local de chamada da função.</p>
+            <img src="img/Exemplo função.jpeg" alt="img">
+            <br><br><br>
+
+            <h3>Função Recursiva</h3>
+            <p>são funções que executam a chamada delas mesmas dentro de seu próprio bloco de instruções. Veja o exemplo:</p>
+            <img src="img/exemplo função recursiva.jpeg" alt="img">
+            <br><br><br><br><br><br><br><br><br><br><br>
+            <hr>
+            <br><br><br><br><br><br>
+            
+            <h1>Programação Orientada à Objeto</h1>
+            <br>
+            <p>No Paradigma de Programação Orientada a Objetos, as Classes são como as formas existentes no mundo das ideias, elas representam os objetos existentes na realidade, mas não são esses objetos propriamente dito, visto que os objetos uma vez instanciados são transitórios, e as classes são na verdade apenas a ideia, a forma dos objetos.</p>
+            <br><br><br><br><br><br>
+
+            <h3>Conceitos Platônicos e Aristotélicos aplicados ao paradigma de Programação Orientada a Objetos</h3>
+            <p>Classes estão inscritas na eternidade, são imutáveis e representam a ideia por traz de um objeto, portanto são genéricas. Para descrever um objeto real, uma classe possui uma definição (um nome) e predicações (atributos e métodos).</p>
+            <br>
+            <p>O  código a baixo mostra a classe que representa objetos do tipo Carro.</p>
+            <img src="img/codigo poo.jpeg" alt="img">
+            <br><br><br>
+
+            <p>Qualquer carro que possua uma cor e uma velocidade (atributos), e que possam acelerar ou frear (métodos) podem ser representados por esta classe. <br>
+
+                Vários objetos diferentes podem ser instanciados a partir de uma classe. Objetos estão inscritos na temporalidade, e portanto são transitórios, podendo mudar suas características enquanto existirem.</p><br>
+
+                <p>No exemplo podemos ver diferentes carros sendo instanciados a partir da mesma classe Carro, e seus atributos vão sendo alterados ao longo do programa e deixam de existir quando main() deixar de ser executada.</p>
+                <img src="img/exemplo poo classe carro.jpeg" alt="img">
+                <br><br><br><br><br>
+
+                <h3>Estrutura de uma Classe</h3>
+                <p>Classes em programação orientada a objetos são abstrações de objetos, ou seja, representam de forma genérica as instâncias dos objetos. 
+
+                    A estrutura de uma classe é divida nome da classe, atributos e métodos.</p>
+                    <img src="img/codigo poo estrutura de classe.jpeg" alt="img">
+                    <br><br><br><br><br>
+
+                    <h3>Encapsulamento</h3>
+                    <p>O encapsulamento é um dos princípios fundamentais da programação orientada a objetos, que visa ocultar os detalhes internos de uma classe e expor apenas as interfaces necessárias para interagir com ela. Isso significa que os atributos de uma classe são geralmente declarados como privados, impedindo o acesso direto a eles de fora da classe.</p>
+
+                    <p>1. Public: Um membro (atributo ou método) marcado como público pode ser acessado de qualquer lugar, ou seja, de dentro da própria classe, de classes do mesmo pacote e de classes de pacotes diferentes. <br><br>
+                    2. Protected: Um membro protegido pode ser acessado apenas dentro da própria classe, de classes do mesmo pacote e de subclasses (mesmo que estejam em pacotes diferentes). <br><br>
+                3. Private: Um membro privado só pode ser acessado dentro da própria classe. Ele não pode ser acessado de fora da classe, nem mesmo por classes do mesmo pacote ou subclasses.</p>
+                <br><br><br>
+
+                <h3>Getters and Setters</h3>
+                <p>O acesso aos atributos de uma classe é fornecido por meio de "métodos públicos", conhecidos como "getters" e "setters". <br>
+
+                    Esses métodos permitem que os usuários da classe leiam e modifiquem os atributos de maneira controlada, garantindo a consistência e integridade dos dados.</p>
+
+                    <img src="img/codigo poo getters and setters.jpeg" alt="img">
+                    <br><br><br><br><br>
+
+                    <h3>Método Construtor</h3>
+                    <p>Em programação orientada a objetos (POO), um método construtor é um tipo especial de método que é chamado automaticamente quando uma instância de uma classe é criada. O objetivo principal de um método construtor é inicializar os atributos de um objeto, garantindo que ele esteja em um estado válido e consistente desde o momento de sua criação.</p>
+                    <p>1. Nome do Método: O nome do método construtor deve ser o mesmo que o nome da classe onde ele está definido. Em Java, por exemplo, o método construtor é declarado usando a palavra-chave public seguida pelo nome da classe. <br><br>
+                    2. Inicialização de Atributos: O método construtor é usado para inicializar os atributos de um objeto. Isso pode envolver a atribuição de valores iniciais aos atributos da classe ou a execução de outras operações necessárias para configurar o objeto. <br><br>
+                    3. Execução Automática: O método construtor é chamado automaticamente quando uma nova instância da classe é criada com a palavra-chave new. Isso garante que o objeto seja inicializado corretamente antes de ser usado em outras partes do programa. <br><br>
+                    4. Construtor Padrão: Se nenhum construtor é explicitamente definido em uma classe, o compilador Java fornece um construtor padrão sem argumentos. Esse construtor padrão simplesmente chama o construtor da superclasse e não faz nenhuma inicialização adicional.
+                </p>
+                <br><br><br>
+
+                <h3>Método toString()</h3>
+                <p>O método toString() é um método especial em muitas linguagens de programação orientadas a objetos, como Java, que é usado para retornar uma representação de string legível para humanos de um objeto. O objetivo principal do método toString() é fornecer uma descrição textual do estado do objeto, geralmente para fins de depuração ou exibição de informações para o usuário.</p>
+                <p>Implementação Personalizada: Embora a implementação padrão do método toString() na classe Object retorne uma string que consiste no nome da classe seguido do endereço de memória do objeto, é comum e muitas vezes desejável substituir esse comportamento padrão com uma implementação personalizada que forneça informações mais úteis sobre o estado do objeto como por exemplo os valores de seu atributo.</p>
+                <p>O método toString() é frequentemente usado em situações onde uma representação de string do objeto é necessária, como ao imprimir o objeto no console, ao registrá-lo em logs de depuração ou ao exibi-lo em interfaces de usuário.</p>
+                <br><br><br>
+
+                <p>Neste código, como estamos substituindo o método toString() da classe Object por uma versão personalizada, precisamos fornecer uma anotação de que o método da superclasse será sobrescrito.</p>
+                <img src="img/codigo poo tostring.jpeg" alt="img">
+                <p>A notação `@Override` é uma anotação em Java que indica explicitamente que um método está sendo sobrescrito da superclasse. Isso significa que o método na subclasse tem o mesmo nome, tipo de retorno e lista de argumentos que um método na superclasse.</p><br><br><br>
+                <hr>
+
+                <h2>Diagrama UML</h2>
+                <p>Sistemas computacionais podem ser encarados como uma tentativa de simulação de uma realidade. A  Linguagem de Modelagem Unificada (Unified Modeling Language - UML) foi criada para estabelecer uma linguagem de modelagem visual comum, semanticamente e sintaticamente rica, para arquitetura, design e implementação de sistemas de software complexos, tanto estruturalmente quanto para comportamentos.</p> <br><br><br>
+
+                <h3>Modelando classes no diagrama</h3>
+                <p>Classes são representadas por uma forma retangular, dividida em três partes. A parte superior exibe o nome da classe, enquanto a parte do meio contém os atributos da classe. A parte inferior representa as operações da classe (também conhecida como métodos).</p>
+                <img src="img/exemplo classes no diagrama.jpeg" alt="img">
+                <br><br><br>
+
+                <h3>Casos especiais de Associação</h3>
+                <p>Agregação: representa uma relação todo-parte entre o agregado e suas partes. Nessa relação, a perda do todo não resulta, obrigatoriamente, na perda das partes. Sua sintaxe é uma linha com um losango branco na classe que corresponde ao todo.</p>
+                <img src="img/exemplo agregação.jpg" alt="img">
+                <br>
+
+                <p>Composição: também representa uma relação todo-parte entre o agregado e suas parte. Porém a composição representa um forte relacionamento, em que as partes não sobrevivem sem o todo. Sua sintaxe é a de uma linha com um losango preto na classe que corresponde ao todo.</p>
+                <img src="img/exemplo composição.jpg" alt="img">
+                <br><br><br>
+
+                <h3>Generalização / Especialização:</h3>
+                <p>Generalização ou Especialização representa a relação existente entre classes. Este relacionamento também é conhecido na orientação a objetos como herança. É quando existe a necessidade de criar uma classe que herde as propriedades de outra classe, isto é, os atributos, métodos e também relacionamentos (associações) da classe superior.</p>
+                <img src="img/exemplo generalização.jpg" alt="img">
+                <br><br><br><hr>
+
+                <h2>Classes Java</h2>
+                <h3>String</h3>
+
+                <p>Uma string é uma sequência de caracteres  que inclui letras do alfabeto, caracteres especiais e espaço em branco. <br><br>
+
+                    Em Java, as strings não são um tipo de dados primitivos, invés disso elas são objetos da classe String. <br><br>
+                    
+                    A classe String é importada do pacote `java.lang.String`</p> <br>
+
+                    <p>A forma mais comum de se instanciar uma string é chamada de string literal:</p>
+                    <img src="img/exemplo chamar string.jpeg" alt="img">
+                    <br><br><br>
+
+                    <p>Esta forma lembra a declaração de uma variável primitiva, mas lembre-se, uma string é um objeto da classe String! <br><br>
+
+                        A Classe String possui muitos métodos, a seguir serão apresentados alguns deles.</p>
+                        <img src="img/classe string.png" alt="img">
+                    <br><br><br><br><br><br>
+
+                    <h3>Classe final</h3>
+                    <p>Um objeto String é imutável; ou seja, depois que um objeto String é criado, seu valor não pode ser alterado.
+
+                        Como as strings são imutáveis, o Java pode processá-las de maneira muito eficiente</p>
+                        <br><br><br>
+
+                        <p>Considere o seguinte:</p>
+                        <img src="img/considere isso aqui.jpeg" alt="img">
+                        <p>esperamos isso:</p>
+                        <img src="img/esperados isso (1).png" alt="img">
+                        <p>Mas isso é o que acontece:</p>
+                        <img src="img/acontece isso (1).png" alt="img">
+                        <br><br><br>
+
+                        <h3>Concatenando Strings</h3>
+                        <p>No Java, a concatenação de strings forma uma nova string que é a combinação de várias strings.
+                        </p>
+                        <p>Você pode concatenar strings em Java de duas maneiras: <br><br>
+                            
+                            - operador de concatenação de strings `+`<br>
+                            - método `concat()`</p>
+
+                            <h4>operador +:</h4>
+                            <p>- Pode funcionar entre uma string e uma string ou um valor de tipo de dados char, int, double ou float <br>
+                                - Converte o valor em sua representação de string antes da concatenação</p>
+                                <img src="img/exemplo operador.jpeg" alt="img">
+
+                                <p>O que está acontecendo na imagem acima:</p>
+                                <img src="img/exemplo operador 2 (1).png" alt="img">
+                                <br><br><br><br>
+
+                                <h4>Método concat():</h4>
+                                <p>- Só pode ser chamado em strings <br>
+                                    - Verifica a compatibilidade dos tipos de dados Será produzido um erro de tempo de compilação se não houver compatibilidade</p>
+                                    <img src="img/exemplo concat.jpeg" alt="img">
+                                    <p>o que está acontecendo na imagem acima:</p>
+                                    <img src="img/exemplo concat 2 (1).png" alt="img">
+                        <br><br><br><br>
+                        <hr>
+
+
+                        <h2>Classes Estáticas</h2>
+                        <p>Uma classe estática em programação orientada a objetos é uma classe que não pode ser instanciada e cujos membros (métodos e variáveis) pertencem à classe em si, não a instâncias individuais dela. <br><br>
+
+                            Isso significa que você pode acessar os membros estáticos diretamente usando o nome da classe, sem precisar criar um objeto dela.</p>
+
+                            <img src="img/exemplo classe estática.jpeg" alt="img">
+                            <br><br><br><br><hr>
+
+                            <h2>Sobrecarga de métodos</h2>
+                            <p>A sobrecarga de métodos consiste basicamente em criar variações de um mesmo método, ou seja, a criação de dois ou mais métodos com nomes totalmente iguais em uma classe.</p>
+                            <p>A Sobrecarga permite que utilizemos o mesmo nome em mais de um método contanto que suas listas de argumentos sejam diferentes para que seja feita a separação dos mesmos.</p>
+                            <p>Construtores também podem ser sobrecarregados.</p>
+                            <img src="img/exemplo sobrecarga de metodos.png" alt="img">
+                            <br>
+                            <p>Código:</p>
+                            <img src="img/código sobrecarga de métodos.jpeg" alt="img">
+                            <br><br><br><br><hr>
+
+                            <h2>Herança</h2>
+                            <p>Herança é uma ferramenta simples, porém poderosa, de linguagens orientadas por objetos que permitem que as classes herdem métodos e atributos de outras classes.</p>
+                            <p>Assim com na vida real, no paradigma de programação orientada a objetos, herdar significa receber ou obter algo do seu antecessor (pai).</p>
+                            <p>O benefício principal da herança é a reutilização de código. 
+
+                                Herdar métodos de uma superclasse dá à sua classe acesso ao código e aos dados da superclasse. 
+                                
+                                Você não precisará escrever o código duas vezes, o que economiza tempo e otimiza seu código. 
+                                
+                                Além disso, ocorrem poucos erros</p><br><br>
+
+                                <h3>Superclasse versus Subclasse</h3>
+                                <p>As classes podem derivar ou evoluir de classes pai, o que significa que elas contêm os mesmos métodos e campos que seus pais, mas podem ser consideradas uma forma mais especializada de suas classes pai.</p>
+                                <p> °Superclasses contêm métodos e campos que são passados para todas as suas subclasses <br><br>   
+                                    ° Subclasses: <br>
+                                        - Herdam métodos e campos de suas superclasses <br>
+                                        - Podem definir métodos ou campos adicionais que a superclasse não tem</p> 
+                                        <br><br>
+
+
+                                        <h3>Herdando Construtores</h3>
+
+                                        <p>Embora uma subclasse herde todos os métodos e campos de uma classe pai, ela não herda construtores.
+
+                                            Você pode criar os construtores da classe filha da forma como preferir.
+                                            
+                                            Se você não implementar um construtor para a classe filha, um construtor sem argumento padrão será criado para a classe .
+                                            
+                                            No entanto, pode ser útil chamar o construtor da classe pai.</p>
+                                            <img src="img/exemplo herança de metodos.jpeg" alt="img">
+                                            <br><br><br>
+                                            <img src="img/exemplo herança de metodos2.jpeg" alt="img">
+                                            <br><br><br><hr>
+
+                                         <h2>Classes e métodos abstratos</h2>
+                                         <p>Uma classe abstrata é aquela que não pode ser instanciada: <br><br>
+
+                                            - Isso significa que não é possível criar objetos desse tipo <br>
+                                            - É possível criar variáveis ou referências desse tipo</p>
+                                            <br>
+
+                                            <p>Por exemplo, a classe Shape é a generalização de todas as classes que representam formas geométricas, mas não faz sentido que a classe Shape seja instanciada, pois ela possui apenas os atributos e métodos que são comuns parar todas formas geométricas, mas não possuí os atributos e métodos necessários para que um retângulo seja desenhado na tela por exemplo.</p>
+
+                                            <p>Para tornar uma classe abstrata utiliza-se a palavra reservada abstract.</p><br>
+                                            <img src="img/exemplo classe abstrata.jpeg" alt="img">
+                                            <br><br><br>
+
+                                            <h3>Métodos abstratos:</h3>
+                                            <p>Métodos abstratos: <br><br>
+
+                                                - Não podem ter um corpo de método <br>
+                                                - Devem ser declarados em uma classe abstrata <br>
+                                                - Devem ser substituídos em uma subclasse. Isso força os programadores a implementarem e redefinirem métodos Normalmente, as classes abstratas contêm métodos abstratos, métodos parcialmente implementados ou métodos totalmente implementados.</p>
+                                                <p>Lembre-se de que as subclasses podem chamar o construtor e os métodos da superclasse usando a palavra-chave super Com classes abstratas, as subclasses também podem usar 'super' para usar o método da superclasse Normalmente, isso é feito primeiro substituindo o método da superclasse, chamando o método super ou substituído e, em seguida, adicionando o código</p>
+                                                <br><br><br><hr>
+
+                                                <h2>Polimorfismo</h2>
+                                                <p>Polimorfismo é um termo que significa "muitas formas". Quando uma variável ou referência pode se referir a diferentes tipos de objetos, isso é chamado de polimorfismo. No caso de programação, o polimorfismo permite que variáveis se refiram a muitos diferentes tipos de objetos, ou seja, elas podem ter várias formas.</p> <br>
+
+                                                <img src="img/exemplo polimorfismo.jpeg" alt="img">
+                                                <hr>
+                                                <br><br><br>
+                                                <h1> <a href="https://github.com/LuizTeles06" target="_blank">GitHub</a></h1>
+
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página 3</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="button-container">
+        <button onclick="navigateTo('index.html')">Página Principal</button>
+        <button onclick="navigateTo('page1.html')">Automação Industrial</button>
+        <button onclick="navigateTo('page2.html')">Desenvolvimento Web</button>
+        <button onclick="navigateTo('page4.html')">Linguagem de Programação</button>
+        <button onclick="navigateTo('page5.html')">Ciência de Dados</button>
+    </div>
+
+
+    <div class="conteudo">
+        <hr>
+            
+        <h1>Banco de Dados</h1>
+        <hr>
+        <h2>Introdução</h2>
+       <h3>Um banco de dados é uma coleção organizada de informações ou dados estruturados, geralmente armazenados eletronicamente em um sistema de computador. Os bancos de dados são projetados para facilitar o armazenamento, a recuperação e a manipulação eficientes de dados. Eles são usados em uma ampla variedade de aplicações, desde sistemas simples de armazenamento de informações até complexos sistemas de gerenciamento de dados em grandes empresas..</h3>
+       <br>
+       <hr>
+       
+
+       <h2>Dados VS Modelagem de Dados</h2>
+       
+       <h3>▶ Dados: São informações brutas que podem ser coletadas e armazenadas. <br> <br>
+        ▶ Modelagem de Dados: É o processo de definir a estrutura lógica e as relações dos dados, visando a organização e o acesso eficiente dos mesmos em um sistema de informação.</h3>
+        <hr>
+       
+       <br>
+
+       <h2>Estrutura de Dados</h2>
+       <h3>● Dados Estruturados <br>
+        Dados organizados em um formato definido e facilmente acessível por meio de bancos de dados relacionais. <br> <br>
+
+        ● Dados Não Estruturados <br>
+        Dados que não têm uma estrutura ou formato predefinido, dificultando sua organização e análise. <br>
+        <br>
+         <br>
+
+        ● Dados Semi Estruturados <br>
+        Dados que não são organizados em um formato rígido de tabelas, mas contêm tags ou marcadores que facilitam a organização e a interpretação.</h3>
+        <br>
+        <br>
+
+        <img src="img/Tipos de Dados (1).png" alt="Imagem tipo de dados">
+   <hr>
+       <br>
+
+       <h2>Tipos de Armazenamento</h2>
+       <h3>● Privado <br> Infraestrutura dedicada exclusivamente a uma única organização.
+        <br> 
+        <br>
+        ● Publico <br>  Infraestrutura compartilhada entre várias organizações, gerenciada por um provedor de serviços de nuvem.
+         <br>
+         <br>
+         ● Híbrido <br> Combinação de armazenamento privado e público, permitindo que os dados e aplicativos se movam entre os dois ambientes.
+    </h3>
+       <br>
+       <hr>
+
+       <h2>Banco de Dados Relacionais</h2>
+       <br>
+        <h2>Modelo de negócio 01:</h2>
+    
+       <h3>Em um e-commerce, há duas classes de dados mantidos em um banco de dados. Segue uma breve descrição de cada umas destas classes de dados:</h3>
+    
+       <h4>● Entidade Cliente - É quem de fato efetua as compras dentro do sistemas. Seus campos são: código do cliente, primeiro nome, último nome, cpf e endereço.</h4>
+
+       <h4>● Entidade Produto - Armazena os dados de cada produto disponível no estoque do e-commerce. Seus campos são: código do produto, nome do produto, marca, categoria e  preço.</h4>
+
+       <h4> ● Relacionamento - Estas duas entidades do sistema se relacionam da seguinte forma: Um cliente pode comprar no mínimo 0 produtos ou no máximo N produtos. Já um produto pode ser comprado por no mínimo 0 cliente ou no máximo por 1 cliente.</h4>
+       <br>
+       <img src="img/Design sem nome (1).jpg" alt="Imagem Banco">
+       <br>
+       <h3>PRIMARY KEY: <br> valor único e não ausente que representa cada item salvo no Banco de Dados.</h3>
+
+       <h3>FOREIGN KEY: <br> é a primary key importada de outra entidade que estabelece relacionamento entre as entidades.</h3>
+       
+       <h3>REGRA: <br> Em um relacionamento 1 para N, a foreign key fica sempre do lado N.</h3>
+
+       
+       <br>
+
+       <hr>
+       <h2>Comandos Banco de Dados</h2>
+       <br>
+
+       <h3>Comandos DDL - Data Definition Language</h3>
+       <h3>▶ CREATE TABLE <br> Cria tabelas</h3>
+        <h3>▶ ALTER TABLE <br> Altera tabelas </h3>
+      <h3>▶ DROP TABLE <br> Deleta tabelas</h3>
+      <br><br><br>
+
+      <h3>Comandos DML - Data Manipulation Language</h3>
+      <h3>▶ INSERT <br> Insere dados a tabela</h3>
+      <h3>▶ UPDATE <br> Atualiza linhas</h3>
+      <h3>▶ DELETE <br> Deleta dados da tabela</h3>
+      <h3>▶ SELECT <br> Visualiza toda a tabela</h3>
+      <br><br><br>
+
+      <h3>Comandos DQL - Data Query Language</h3>
+      <h3>▶ SELECT <br> Seleciona uma tabela ou coluna em específico</h3>
+      <h3>▶ ORDER BY <br> Exibe a tabela 1 completa com as colunas ordenadas de acordo com a coluna 1 Crescente</h3>
+      <h3>▶ JOIN <br> É utilizado para combinar linhas de duas ou mais tabelas com base em uma condição relacionada entre elas.</h3>
+      <h3>▶ GROUP BY <br> É usado para agrupar registros que possuem o mesmo valor em uma ou mais colunas e aplicar funções agregadas a esses grupos.</h3>
+      <h3>▶ UNION <br> é usado para combinar o resultado de duas ou mais consultas SQL em um único conjunto de resultados</h3>
+      <h3>▶ INTERSECT <br>  é usado para retornar as linhas que estão presentes em ambos os conjuntos de resultados de duas consultas SQL</h3>
+      <h3>▶ EXCEP <br>  Usado para retornar as linhas que estão presentes no conjunto de resultados da primeira consulta, mas ausentes no conjunto de resultados da segunda consulta</h3>
+      <h3>▶ ALIASES <br> Da apelido as tabelas ou colunas</h3>
+      <br><br><br>
+
+      <h3>Comandos DTL - Data Trasaction Language</h3>
+      <h3>▶ BEGIN TRANSACTION <br> É usado para iniciar uma transação no banco de dados. Uma transação é uma sequência de operações de banco de dados que são tratadas como uma unidade indivisível</h3>
+      <h3>▶ COMMIT <br> é usado para confirmar (commitar) as operações de uma transação no banco de dados</h3>
+      <h3>▶ ROLLBACK <br> É usado para reverter (rollback) as operações de uma transação no banco de dados e restaurar o estado anterior ao início da transação</h3>
+      <br><br><br>
+       <hr>
+
+       <h2>Aplicativos e sites usados</h2>
+       <img src="img/postgresql-adesivo-sticker (1).png" alt="Imagem postgres">
+       <br>
+       <br>
+       <br>
+       <br>
+       <br>
+
+       <img src="img/draw.io (1).png" alt="Imagem draw.io">
+       <br>
+       <br>
+       <br>
+       <br>
+       <br>
+
+
+        <hr>
+        <h2>Diagramas no Draw.io</h2>
+        <h3>Utilizado para facilitar e organizar as tabelas criadas no SQL</h3>
+        <img src="img/Atividade Avaliativa banco de dados.drawio (1) (1).png" alt="Imagem Diagrama">
+        <hr>
+       
+
+       <h2>Veja meus projetos de banco de dados no meu GitHub</h2>
+       <br>
+       <h3>Link</h3>
+       
+      
+       <h1> <a href="https://github.com/LuizTeles06" target="_blank">GitHub</a></h1>
+       
+
+    </div>
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
